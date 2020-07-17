@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "QuestionDetail";
+    var data = ViewBag.QuestionsDetail;
+}
+@model IEnumerable<EnglishSalon.Models.QuestionBank>
+@Styles.Render("~/Content/css/QuestionDetail.css")
+
+<div id="div-detail">
+    <h1 style="color:lightsteelblue">@data.Label</h1>
+    <ul id="ul-detail">
+        <li id="DataId" hidden>@data.Id</li>
+        <li class="data-title">Q:&nbsp;@data.Title</li>
+        <li class="data-options">@data.Options</li>
+        <li class="data-timeout">
+            Time: <font id="Timer">@data.TimeOut</font> &nbsp;&nbsp;&nbsp;
+            <button onclick="StartTimer()">Start</button>
+            <button onclick="ShowAnswer()" style="color:green">Show Answer</button>
+            <button id="SubmitAndBack" onclick="SubmitAndBack()" style="color:green;margin-left:10%">Back</button>
+        </li>
+        <li><font class="data-answer" id="data-answer" hidden>@data.Answer</font></li>
+    </ul>
+</div>
+<script>
+    function StartTimer() {
+        var timer = $("#Timer").text();
+        setInterval(function () {
+            if (timer > 0) {
+                timer--;
+            }
+            else {
+                timer = "Out"
+            }
+            $("#Timer").text(timer);
+        }, 1000);
+    }
+    function SubmitAndBack() {
+        var Id = $("#DataId").text();
+        location.href = "SubmitAndBack?Id=" + Id;
+    }
+    function ShowAnswer() {
+        $("#data-answer").show();
+    }
+</script>

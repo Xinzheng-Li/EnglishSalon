@@ -1,0 +1,12 @@
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\bin\Debug\EnglishSalon.Models.dll
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\bin\Debug\EnglishSalon.Models.pdb
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.csprojAssemblyReference.cache
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.csproj.CoreCompileInputs.cache
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.dll
+C:\Users\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.pdb
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\bin\Debug\EnglishSalon.Models.dll
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\bin\Debug\EnglishSalon.Models.pdb
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.csprojAssemblyReference.cache
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.csproj.CoreCompileInputs.cache
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.dll
+D:\v-xinzli\OneDrive\EnglishSalon\EnglishSalon\EnglishSalon.Models\obj\Debug\EnglishSalon.Models.pdb

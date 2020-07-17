@@ -1,0 +1,43 @@
+﻿body {
+}
+
+ul {
+    list-style: none;
+}
+
+#div-detail {
+    background-color: azure;
+    padding: 3%;
+    margin-top: 8%;
+}
+
+#ul-detail > li {
+    margin: 30px;
+}
+
+.data-id {
+    display: none
+}
+
+.data-title {
+    font-size: 50px;
+}
+
+.data-options {
+    font-size: 40px;
+}
+
+.data-label {
+    font-size: 20px;
+}
+
+.data-answer {
+    /*    display: none*/
+    color: green;
+    font-size: 40px;
+}
+
+.data-timeout {
+    color: red;
+    font-size: 30px;
+}
